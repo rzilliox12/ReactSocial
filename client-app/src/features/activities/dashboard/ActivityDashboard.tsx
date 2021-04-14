@@ -21,7 +21,7 @@ export default observer(function ActivityDasboard() {
     
       if(activityStore.loadingInitial) {
         return (
-          <LoadingComponent content='Loading app' />
+          <LoadingComponent content='Loading activities' />
         )
       }
 
